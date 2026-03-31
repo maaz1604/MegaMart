@@ -106,7 +106,3 @@ npm run ios
 - New items are added to the top of the list.
 - Create screen also shows all current items with Edit and Delete actions.
 
-
-## License
-
-This project is currently for learning and personal use.
