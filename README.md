@@ -26,10 +26,10 @@ MegaMart is a simple React Native inventory app for managing stock items. It pro
 
 Add your screenshot files in `assets/screenshots/` with the names below.
 
-![All Items Screen](assets/screenshots/all-items.png)
-![Low Stock Screen](assets/screenshots/low-stock.png)
-![Create Screen (Filled)](assets/screenshots/create-filled.png)
-![Create Screen (Empty)](assets/screenshots/create-empty.png)
+<img src="assets/screenshots/all-items.png" alt="All Items Screen" width="320" height="640" />
+<img src="assets/screenshots/low-stock.png" alt="Low Stock Screen" width="320" height="640" />
+<img src="assets/screenshots/create-filled.png" alt="Create Screen (Filled)" width="320" height="640" />
+<img src="assets/screenshots/create-empty.png" alt="Create Screen (Empty)" width="320" height="640" />
 
 ## Validation Rules
 
