@@ -22,6 +22,15 @@ MegaMart is a simple React Native inventory app for managing stock items. It pro
 - Basic client-side validation for item name and stock.
 - Visual highlight for low-stock rows.
 
+## Screenshots
+
+Add your screenshot files in `assets/screenshots/` with the names below.
+
+![All Items Screen](assets/screenshots/all-items.png)
+![Low Stock Screen](assets/screenshots/low-stock.png)
+![Create Screen (Filled)](assets/screenshots/create-filled.png)
+![Create Screen (Empty)](assets/screenshots/create-empty.png)
+
 ## Validation Rules
 
 The Create flow validates user input before adding or updating items:

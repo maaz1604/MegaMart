@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
 import HomeScreen from './src/screens/HomeScreen'
 
@@ -11,7 +11,3 @@ const App = () => {
 }
 
 export default App
-
-const styles = StyleSheet.create({
-
-})
