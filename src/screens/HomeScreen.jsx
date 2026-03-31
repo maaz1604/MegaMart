@@ -33,9 +33,12 @@ const HomeScreen = () => {
   { "id": 24, "name": "Pasta (Penne)", "stock": 13, "unit": "kg" },
   { "id": 25, "name": "Corn Starch", "stock": 10, "unit": "kg" }
 ])
+
+    const activeTitle = view === 0 ? 'Item List' : view === 1 ? 'Low Stock' : 'Add Item';
+
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>DashBoard</Text>
+            <Text style={styles.title}>{activeTitle}</Text>
             <View style={styles.buttonContainer}>
                 <Pressable style={[styles.button, view===0 ? {backgroundColor:'#72C37AFF'} : null]} onPress={() => setView(0)}>
                     <Text style={[styles.btnText,view===0 ? {color:'white'} : null]}>All Items</Text>
